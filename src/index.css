@@ -1,0 +1,35 @@
+/* Reseteo de márgenes y paddings para asegurar consistencia */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total del elemento */
+}
+
+/* Estilo general para el body */
+body {
+  font-family: Arial, sans-serif; /* Fuente básica para la aplicación */
+  background-color: #f5f5f5; /* Color de fondo general para la página */
+  color: #333; /* Color de texto general */
+  line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
+}
+
+/* Estilo global para elementos de texto */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal; /* Fuente normal para todos los encabezados */
+}
+
+/* Estilo para enlaces */
+a {
+  color: #007bff; /* Color de enlace */
+  text-decoration: none; /* Sin subrayado por defecto */
+}
+
+a:hover {
+  text-decoration: underline; /* Subrayado en hover */
+}
+
+/* Estilos para elementos de formulario */
+input, button, select, textarea {
+  font-family: inherit; /* Usa la misma fuente que el resto del texto */
+}
